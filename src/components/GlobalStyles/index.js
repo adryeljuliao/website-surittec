@@ -47,7 +47,7 @@ export const GlobalStyle = createGlobalStyle`
       width: 100%;
       color: #333;
       border: 1px solid #d7d7d7;
-      border-radius: 8px;
+      border-radius: 4px;
       font-size: 14px;
       ::placeholder {
         color: #ccc;

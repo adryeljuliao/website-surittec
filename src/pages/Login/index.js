@@ -139,7 +139,9 @@ export default function Login(props) {
           </form>
         </Container>
       ) : (
-        <Redirect to={{ pathname: '/home', state: { from: props.location } }} />
+        <Redirect
+          to={{ pathname: '/register', state: { from: props.location } }}
+        />
       )}
     </>
   );
